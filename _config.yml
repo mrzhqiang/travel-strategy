@@ -68,5 +68,3 @@ fontawesome_path: "fontawesome-free-5.8.2-web"
 # 全局变量
 repo:     "https://github.com/mrzhqiang/travel-strategy"
 jekyll:   "https://jekyllrb.com/"
-
-my-blog: "https://mrzhqiang.github.io"
