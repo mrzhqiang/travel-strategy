@@ -30,6 +30,19 @@ Make sure that `gem install nokogiri -v '1.10.3' --source 'https://rubygems.org/
 
 如果还有其他问题，请参考：[Jekyll Docs][1]。
 
+## 一键部署
+首先确保当前位于 master 分支上：
+```bash
+git pull
+```
+
+然后使用 Jekyll 编译一次：
+```bash
+jekyll build
+```
+
+完成以上步骤后，即可从 Git Bash 运行 `deploy_website.sh` 文件，进行一键部署。
+
 写在最后
 -------
 [Jekyll][1] 技术适合制作博客，写文档推荐 [MkDocs][2]。
