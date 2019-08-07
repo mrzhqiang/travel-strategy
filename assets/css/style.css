@@ -1,0 +1,474 @@
+@charset "UTF-8";
+.btn-mr-primary {
+  font-weight: 600;
+  color: #263238;
+  border-color: #263238; }
+  .btn-mr-primary:hover, .btn-mr-primary:active {
+    color: #fff;
+    background-color: #263238;
+    border-color: #263238; }
+  .btn-mr-primary:focus {
+    box-shadow: 0 0 0 3px rgba(38, 50, 56, 0.25); }
+
+.mr-navbar {
+  background-color: #263238;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3); }
+  .mr-navbar .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #8ba9b8; }
+    .mr-navbar .navbar-nav .nav-link.active, .mr-navbar .navbar-nav .nav-link:hover {
+      color: #fff;
+      background-color: transparent; }
+    .mr-navbar .navbar-nav .nav-link.active {
+      font-weight: 600; }
+  .mr-navbar .dropdown-item {
+    font-weight: 600;
+    color: #263238; }
+    .mr-navbar .dropdown-item.active, .mr-navbar .dropdown-item:hover {
+      color: #8ba9b8;
+      background-color: transparent; }
+
+.masthead {
+  position: relative;
+  padding: 5rem 3rem;
+  margin-bottom: 1.25rem;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  background-color: #43A047;
+  background-image: linear-gradient(120deg, #1565C0, #43A047); }
+  .masthead a {
+    color: #263238; }
+  .masthead .header-title {
+    max-width: 36rem;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #263238;
+    font-family: 方正舒体, serif; }
+    .masthead .header-title:hover, .masthead .header-title:focus {
+      color: #8ba9b8; }
+  .masthead .header-date {
+    display: block;
+    margin-top: .5rem;
+    color: #C0CA33;
+    font-size: 1.25rem;
+    font-family: 方正舒体, serif; }
+
+.mr-footer {
+  text-align: center;
+  background-color: #FAFAFA; }
+  .mr-footer a {
+    font-weight: 600;
+    color: #616161; }
+    .mr-footer a:hover, .mr-footer a:focus {
+      color: #4DB6AC; }
+  .mr-footer p {
+    margin-bottom: 0; }
+
+.mr-footer-links {
+  padding-left: 0;
+  margin-bottom: 1rem; }
+  .mr-footer-links li {
+    display: inline-block; }
+    .mr-footer-links li + li {
+      margin-left: 1rem; }
+
+.home {
+  position: relative;
+  padding: 2rem 1.25rem; }
+  .home h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Vivaldi, serif; }
+  .home .lead {
+    font-family: 方正舒体, serif; }
+  .home .btn {
+    padding: 0.8rem 2rem;
+    font-family: 华文行楷, serif; }
+
+.task-list-item-checkbox {
+  margin-right: 0.5rem; }
+
+.scroll-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  display: none;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  background: rgba(52, 58, 64, 0.5);
+  line-height: 46px; }
+
+.scroll-to-top:focus, .scroll-to-top:hover {
+  color: white; }
+
+.scroll-to-top:hover {
+  background: #343a40; }
+
+.scroll-to-top i {
+  font-weight: 800; }
+
+.header-icon {
+  display: inline-block; }
+  .header-icon i {
+    margin-bottom: 1rem; }
+  .header-icon:hover, .header-icon:focus {
+    text-decoration: none;
+    color: #8ba9b8; }
+
+.limited-content {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  margin-left: auto;
+  margin-right: auto; }
+
+.note {
+  margin-bottom: 4em; }
+
+.note-title,
+.note-title a {
+  color: #263238; }
+  .note-title:hover, .note-title:focus,
+  .note-title a:hover,
+  .note-title a:focus {
+    color: #8ba9b8; }
+
+.note-title {
+  margin-top: 0;
+  font-size: 1.5rem; }
+
+.note-date {
+  display: block;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  color: #C0CA33; }
+
+.note a {
+  word-break: break-word; }
+
+.pagination {
+  overflow: hidden;
+  /* clearfix */
+  margin-left: -1rem;
+  margin-right: -1rem;
+  text-align: center; }
+
+.pagination-item {
+  position: relative;
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #263238;
+  border: 1px solid #263238; }
+
+.pagination-item:first-child {
+  margin-bottom: -1px; }
+
+a.pagination-item:hover {
+  z-index: 2;
+  color: #fff;
+  text-decoration: none;
+  background-color: #8ba9b8;
+  border-color: #8ba9b8; }
+
+span.pagination-item {
+  color: #9E9E9E;
+  border: 1px solid #9E9E9E; }
+
+@media (min-width: 30em) {
+  .pagination {
+    margin: 3rem 0; }
+
+  .pagination-item {
+    float: left;
+    width: 50%; }
+
+  .pagination-item:first-child {
+    margin-bottom: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px; }
+
+  .pagination-item:last-child {
+    margin-left: -1px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px; } }
+body {
+  color: #616161;
+  background-color: #ECEFF1; }
+
+.post-title,
+.post-title a {
+  color: #263238; }
+  .post-title:hover, .post-title:focus,
+  .post-title a:hover,
+  .post-title a:focus {
+    color: #8ba9b8; }
+
+.post-title {
+  margin-top: 0;
+  font-size: 1.5rem; }
+
+.post-date {
+  display: block;
+  margin-top: .5rem;
+  color: #C0CA33; }
+
+.post a {
+  word-break: break-word; }
+
+.related {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top: 1px solid #eee; }
+
+.related-posts {
+  padding-left: 0;
+  list-style: none; }
+
+.related-posts h2 {
+  margin-top: 0;
+  color: #263238;
+  font-size: 1.5rem; }
+
+.related-posts h3 {
+  margin-top: 0;
+  color: #263238;
+  font-size: 1.25rem; }
+
+.related-posts li small {
+  font-size: 75%;
+  color: #C0CA33; }
+
+.related-posts li a:hover {
+  color: #8ba9b8;
+  text-decoration: none; }
+
+.related-posts li a:hover small {
+  color: inherit; }
+
+.related-title {
+  color: #616161; }
+
+img {
+  margin-left: 2rem;
+  max-width: 75%; }
+
+.post-main h1,
+.post-main h2,
+.post-main h3,
+.post-main h4,
+.post-main h5,
+.post-main h6 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: normal;
+  color: #26A69A; }
+.post-main p {
+  margin-bottom: 1em; }
+.post-main code {
+  padding: 2px 4px;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 0.9rem;
+  color: #757575;
+  background-color: #fff;
+  border-radius: 0.3rem; }
+.post-main pre {
+  padding: 0.8rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  color: #757575;
+  word-wrap: normal;
+  background-color: #fff;
+  border: solid 1px #D7CCC8;
+  border-radius: 0.3rem; }
+  .post-main pre > code {
+    padding: 0;
+    margin: 0;
+    font-size: 0.9rem;
+    color: #757575;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
+    border: 0; }
+.post-main .highlight {
+  margin-bottom: 1rem; }
+  .post-main .highlight pre {
+    margin-bottom: 0;
+    word-break: normal; }
+.post-main .highlight pre,
+.post-main pre {
+  padding: 0.8rem;
+  overflow: auto;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  border-radius: 0.3rem;
+  -webkit-overflow-scrolling: touch; }
+.post-main pre code,
+.post-main pre tt {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0; }
+  .post-main pre code:before, .post-main pre code:after,
+  .post-main pre tt:before,
+  .post-main pre tt:after {
+    content: normal; }
+.post-main ul,
+.post-main ol {
+  margin-top: 0; }
+.post-main blockquote {
+  padding: 0 1rem;
+  margin-left: 0;
+  color: #78909C;
+  border-left: 0.3rem solid #D7CCC8; }
+  .post-main blockquote > :first-child {
+    margin-top: 0; }
+  .post-main blockquote > :last-child {
+    margin-bottom: 0; }
+.post-main table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+  -webkit-overflow-scrolling: touch; }
+  .post-main table th {
+    font-weight: bold; }
+  .post-main table th,
+  .post-main table td {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ECEFF1; }
+.post-main dl {
+  padding: 0; }
+  .post-main dl dt {
+    padding: 0;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: bold; }
+  .post-main dl dd {
+    padding: 0;
+    margin-bottom: 1rem; }
+.post-main hr {
+  height: 2px;
+  padding: 0;
+  margin: 1rem 0;
+  background-color: #EFEBE9;
+  border: 0; }
+
+.about-main h1,
+.about-main h2,
+.about-main h3,
+.about-main h4,
+.about-main h5,
+.about-main h6 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: normal;
+  color: #26A69A; }
+.about-main p {
+  margin-bottom: 1em; }
+.about-main code {
+  padding: 2px 4px;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 0.9rem;
+  color: #F9FBE7;
+  background-color: #455A64;
+  border-radius: 0.3rem; }
+.about-main pre {
+  padding: 0.8rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  color: #F9FBE7;
+  word-wrap: normal;
+  background-color: #455A64;
+  border: solid 1px #D7CCC8;
+  border-radius: 0.3rem; }
+  .about-main pre > code {
+    padding: 0;
+    margin: 0;
+    font-size: 0.9rem;
+    color: #F9FBE7;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
+    border: 0; }
+.about-main .highlight {
+  margin-bottom: 1rem; }
+  .about-main .highlight pre {
+    margin-bottom: 0;
+    word-break: normal; }
+.about-main .highlight pre,
+.about-main pre {
+  padding: 0.8rem;
+  overflow: auto;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  border-radius: 0.3rem;
+  -webkit-overflow-scrolling: touch; }
+.about-main pre code,
+.about-main pre tt {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0; }
+  .about-main pre code:before, .about-main pre code:after,
+  .about-main pre tt:before,
+  .about-main pre tt:after {
+    content: normal; }
+.about-main ul,
+.about-main ol {
+  margin-top: 0; }
+.about-main blockquote {
+  padding: 0 1rem;
+  margin-left: 0;
+  color: #78909C;
+  border-left: 0.3rem solid #D7CCC8; }
+  .about-main blockquote > :first-child {
+    margin-top: 0; }
+  .about-main blockquote > :last-child {
+    margin-bottom: 0; }
+.about-main table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+  -webkit-overflow-scrolling: touch; }
+  .about-main table th {
+    font-weight: bold; }
+  .about-main table th,
+  .about-main table td {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ECEFF1; }
+.about-main dl {
+  padding: 0; }
+  .about-main dl dt {
+    padding: 0;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: bold; }
+  .about-main dl dd {
+    padding: 0;
+    margin-bottom: 1rem; }
+.about-main hr {
+  height: 2px;
+  padding: 0;
+  margin: 1rem 0;
+  background-color: #EFEBE9;
+  border: 0; }
