@@ -20,7 +20,7 @@
       </a>
       <div aria-labelledby="mr-versions" class="dropdown-menu dropdown-menu-right">
         {% for item in site.data.about %}
-        <a class="dropdown-item" href="{{ item.link }}">{{ item.name }}</a>
+        <a class="dropdown-item" href="{{ site.baseurl }}/{{ item.link }}">{{ item.name }}</a>
         {% endfor %}
       </div>
     </li>
