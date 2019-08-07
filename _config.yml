@@ -1,0 +1,72 @@
+title: 个人旅游攻略
+author: "mrzhqiang"
+email: 287431404@qq.com
+description: >- # this means to ignore newlines until "baseurl:"
+  从今若许闲乘月，拄杖无时夜叩门。
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  mrzhqiang
+
+permalink: pretty
+
+paginate: 5
+paginate_path: "notes/page:num"
+
+excerpt_separator: "<!--more-->"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: rouge
+host: "0.0.0.0"
+
+plugins:
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - .idea
+  - .sass-cache
+
+# 工具：主要 GitHub Pages 流量有限（据说每个月 100Gb），使用 CDN 可以节省流量
+cdn:
+  # See https://www.srihash.org for info on how to generate the hashes
+  jquery:           "https://code.jquery.com/jquery-3.3.1.min.js"
+  jquery_hash:      "sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  css:              "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  css_hash:         "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+  js_bundle:        "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+  js_bundle_hash:   "sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+
+# 仓库工具
+bootstrap_path: "bootstrap-4.3.1-dist"
+fontawesome_path: "fontawesome-free-5.8.2-web"
+
+# 全局变量
+repo:     "https://github.com/mrzhqiang/travel-strategy"
+jekyll:   "https://jekyllrb.com/"
+
+my-blog: "https://mrzhqiang.github.io"

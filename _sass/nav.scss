@@ -1,0 +1,36 @@
+//
+// 导航栏样式
+//
+.mr-navbar {
+  background-color: $primary-color;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+
+  .navbar-nav {
+    .nav-link {
+      padding-right: .5rem;
+      padding-left: .5rem;
+      color: $primary-color-light;
+
+      &.active,
+      &:hover {
+        color: $white;
+        background-color: transparent;
+      }
+
+      &.active {
+        font-weight: 600;
+      }
+    }
+  }
+
+  .dropdown-item {
+    font-weight: 600;
+    color: $primary-color;
+
+    &.active,
+    &:hover {
+      color: $primary-color-light;
+      background-color: transparent;
+    }
+  }
+}

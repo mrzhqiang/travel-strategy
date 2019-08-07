@@ -1,0 +1,40 @@
+//
+// 桅顶，报头。
+//
+.masthead {
+  position: relative;
+  padding: 5rem 3rem;
+  margin-bottom: 1.25rem;
+  font-weight: 300;
+  color: $header-heading-color;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+  background-color: $header-bg-color;
+  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+
+  a {
+    color: $primary-color
+  }
+
+  .header-title {
+    max-width: 36rem;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: $title-text-color;
+    font-family: 方正舒体, serif;
+
+    &:hover,
+    &:focus {
+      color: $title-link-color;
+    }
+  }
+
+  .header-date {
+    display: block;
+    margin-top: .5rem;
+    color: $date-text-color;
+    font-size: 1.25rem;
+    font-family: 方正舒体, serif;
+  }
+}

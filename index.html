@@ -1,0 +1,35 @@
+---
+layout: default
+title: 旅游攻略
+---
+
+<!-- http://www.w3school.com.cn/tags/tag_main.asp -->
+<main class="home" role="main">
+  <!-- https://code.z01.com/v4/layout/overview.html -->
+  <div class="container">
+    <!-- https://code.z01.com/v4/layout/grid.html -->
+    <div class="row align-items-center">
+      <div class="col-6 mx-auto col-md-6 order-md-2">
+        {%
+        include icons/home-web.svg width="512" height="512" class="img-fluid mb-3 mb-md-0"
+        %}
+      </div>
+      <div class="col-md-6 order-md-1 text-center text-md-left pr-md-5">
+        <h1 class="mb-4">{{ page.title }}</h1>
+        <p class="lead">
+          穷小子的旅游攻略。
+        </p>
+        <p class="lead mb-4">
+          旨在节省经济，同时享受沿途风景和特色美食。
+        </p>
+        <div class="row mx-n2">
+          <div class="col-md px-2">
+            <a class="btn btn-mr-primary mb-3" href="/notes">
+              <i class="fas fa-book mr-2"></i>查看攻略
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
