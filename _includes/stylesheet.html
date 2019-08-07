@@ -1,9 +1,10 @@
 {%- if jekyll.environment == "production" %}
-<link crossorigin="anonymous" href="/assets/{{ site.bootstrap_path }}/css/bootstrap.min.css"
+<link crossorigin="anonymous"
+      href="{{ site.baseurl }}/assets/{{ site.bootstrap_path }}/css/bootstrap.min.css"
       integrity="{{ site.cdn.css_hash }}" rel="stylesheet">
-<link href="/assets/{{ site.fontawesome_path }}/css/all.min.css" rel="stylesheet">
+<link href="{{ site.baseurl }}/assets/{{ site.fontawesome_path }}/css/all.min.css" rel="stylesheet">
 {% else %}
-<link href="/assets/{{ site.bootstrap_path }}/css/bootstrap.css" rel="stylesheet">
-<link href="/assets/{{ site.fontawesome_path }}/css/all.css" rel="stylesheet">
+<link href="{{ site.baseurl }}/assets/{{ site.bootstrap_path }}/css/bootstrap.css" rel="stylesheet">
+<link href="{{ site.baseurl }}/assets/{{ site.fontawesome_path }}/css/all.css" rel="stylesheet">
 {% endif -%}
-<link href="/assets/css/style.css" rel="stylesheet">
+<link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet">
