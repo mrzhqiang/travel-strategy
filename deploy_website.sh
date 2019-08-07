@@ -14,12 +14,22 @@ git clone $REPO $DIR
 # Move working directory into temp folder
 cd $DIR
 
-# Generate the website
-jekyll build
+# Checkout and track the gh-pages branch
+git checkout -t origin/gh-pages
 
-# checkout gh-pages branch
-git checkout gh-pages
-git push
+# Delete everything
+ls | xargs rm -rf
+
+# Copy website files from real repo
+cp -R ../_site/* .
+
+# Stage all files in git and create a commit
+git add .
+git add -u
+git commit -m "Website at $(date)"
+
+# Push the new files up to GitHub
+git push origin gh-pages
 
 # Delete our temp folder
 cd ..
