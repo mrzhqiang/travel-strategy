@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: /travel-strategy/sitemap.xml
