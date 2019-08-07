@@ -3,7 +3,7 @@ author: "mrzhqiang"
 email: 287431404@qq.com
 description: >- # this means to ignore newlines until "baseurl:"
   从今若许闲乘月，拄杖无时夜叩门。
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/travel-strategy" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  mrzhqiang
 
